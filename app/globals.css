@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Genera-SemiBold";
+  src: url("../public/fonts/Genera-SemiBold.ttf");
+}
+
+/* Assuming this is in a CSS file where you write custom styles */
+.h1-responsive {
+  font-family: "Genera-SemiBold";
+  font-size: 10em;
+  /* Default font size */
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+
+  /* This corresponds to your 'md' screen size */
+  .h1-responsive {
+    font-size: 4em;
+  }
+
+  .h3-responsive {
+    font-size: 1em;
+  }
+
+}
+
+.hero-height {
+  height: 50vh;
+  /* vh unit represents a percentage of the viewport height */
+}
+
+.header-height {
+  height: 25vh;
+}
+
+.h3-responsive {
+  font-size: 1.5em;
+}
