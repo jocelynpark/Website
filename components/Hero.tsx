@@ -25,6 +25,7 @@ const Hero: React.FC<HeroProps> = ({ id, showAbout }) => {
             <p className='text-darkbrown'>I’m a student at Cornell University studying Information Science with concentrations in Data Science & User Experience. I spend my time primarily between New York City & Ithaca, <a href="https://www.youtube.com/@jspcreates" className="text-graygreen font-extrabold hover:opacity-50" target="_blank" rel="noopener noreferrer">vlogging</a> my adventures anywhere in between.</p>
             <br></br>
             <p className='text-darkbrown'>My <a href="#design" className="text-graygreen font-extrabold hover:opacity-50">work</a> is driven by user-centric, visually engaging experiences. I am guided by the notion that art should make one feel something and this motivates the design choices I make. I value empathy, compassion, and enthusiasm to learn. I strive to bring these values to the forefront in design. </p>
+            <br></br>
             <p>
               In my free time, I like to indulge in reading, watching films, or binging YouTube videos about slow fashion and sustainable living. I’m also a huge foodie.</p>
           </div>
