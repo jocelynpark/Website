@@ -18,7 +18,7 @@ const projects = [
     name: "This Website",
     image: "/WebsiteCard.png",
     description: "Built from scratch.",
-    link: "https://github.com/jocelynpark/my-project",
+    link: "https://github.com/jocelynpark/Website",
     external: true
   },
 ]
@@ -26,8 +26,9 @@ const projects = [
 const Design: React.FC<DesignProps> = ({ id }) => {
   return (
     <div id={id}> {/* Now you can use id here */}
-      <section id="design" className='py-36 px-24 sm:px-8'>
-        <div className='flex flex-row flex-1 space-x-8 sm:flex-col sm:space-y-2 sm:items-center sm:space-x-0 my-2'>
+      <section id="design" className='md:px-24 px-8'>
+        <h1 className='h1-responsive text-darkbrown'>Design</h1>
+        <div className='flex md:flex-row md:flex-1 md:space-x-8 flex-col items-center space-x-0 my-2'>
           {projects.map((project, idx) => {
             // This is the content common to both internal and external links.
             const content = (
@@ -45,7 +46,7 @@ const Design: React.FC<DesignProps> = ({ id }) => {
             );
 
             return (
-              <div key={idx} className={`w-1/2 sm:w-full hover:opacity-70 hover:cursor-pointer sm:mb-0 sm:space-y-0 relative my-8`}>
+              <div key={idx} className={`md:w-1/2 w-full hover:opacity-70 hover:cursor-pointer sm:mb-0 sm:space-y-0 relative my-8`}>
                 {project.external ? (
                   // External link with an anchor tag.
                   <a href={project.link} target="_blank" rel="noopener noreferrer" className={`flex flex-col items-center justify-center overflow-hidden`}>

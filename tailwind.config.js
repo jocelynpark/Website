@@ -12,7 +12,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        sm: { max: '800px' }
+        sm: '640px', // applies from 640px to 799px
+        md: '800px', // applies from 800px to 1199px
+        lg: '1000px', // applies from 1200px and up
+        // Note: You don't need xl or 2xl unless you're using them
       },
       fontFamily: {
         'genera': ['Genera-SemiBold'],

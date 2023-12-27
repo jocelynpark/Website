@@ -47,7 +47,7 @@ const Navbar: React.FC<NavbarProps> = ({ onAboutClick }) => {
       <div className='mt-24 justify-between flex w-3/4'>
         {NAV_ITEMS.map((item, idx) => {
           const isActive = activePage === item.page;
-          const navItemClasses = `sm:text-xl text-3xl text-darkbrown opacity-100 hover:opacity-30 hover:cursor-pointer ${isActive ? 'opacity-100 font-black' : ''}`;
+          const navItemClasses = `text-xl md:text-3xl text-darkbrown opacity-100 hover:opacity-30 hover:cursor-pointer ${isActive ? 'opacity-100 font-black' : ''}`;
 
           if (item.external) {
             return (

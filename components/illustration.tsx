@@ -32,12 +32,12 @@ const arts2 = [
 const Illustration: React.FC<IllustrationProps> = ({ id }) => {
   return (
     <div id={id}> {/* Now you can use id here */}
-      <section id="illustration" className='py-16 px-40 sm:px-8'>
-        <div className='flex flex-row flex-1 space-x-2 sm:flex-col sm:space-y-2 sm:items-center sm:space-x-0 my-2'>
+      <section id="illustration" className='py-16 md:px-40 px-8'>
+        <div className='flex md:flex-row md:space-x-2 flex-col items-center space-x-0 my-2'>
           {arts1.map((project, idx) => {
             return (
-              <div key={idx} className={`border w-1/2 rounded-md sm:w-full`}>
-                <div className={`flex flex-col items-center justify-center rounded-md overflow-hidden`}>
+              <div key={idx} className={`md:w-1/2 rounded-md w-full`}>
+                <div className={`flex flex-col items-center rounded-md overflow-hidden mb-4 md:mb-0`}>
                   <Image
                     src={project.image}
                     alt=""
@@ -50,11 +50,11 @@ const Illustration: React.FC<IllustrationProps> = ({ id }) => {
             )
           })}
         </div>
-        <div className='flex flex-row flex-1 space-x-2 sm:flex-col sm:space-y-4 sm:items-center sm:space-x-0'>
+        <div className='flex md:flex-row md:space-x-2 flex-col  items-center space-x-0 my-2'>
           {arts2.map((project, idx) => {
             return (
-              <div key={idx} className={`border w-1/2 rounded-md sm:w-full`}>
-                <div className={`flex flex-col items-center justify-center rounded-md overflow-hidden`}>
+              <div key={idx} className={`md:w-1/2 rounded-md w-full`}>
+                <div className={`flex flex-col items-center rounded-md overflow-hidden mb-4 md:mb-0`}>
                   <Image
                     src={project.image}
                     alt=""

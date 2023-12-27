@@ -30,7 +30,6 @@
 
 .hero-height {
   height: 50vh;
-  /* vh unit represents a percentage of the viewport height */
 }
 
 .header-height {
@@ -39,4 +38,12 @@
 
 .h3-responsive {
   font-size: 1.5em;
+}
+
+.h2 {
+  font-family: "Genera-SemiBold";
+  font-size: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  /* Default font size */
 }
