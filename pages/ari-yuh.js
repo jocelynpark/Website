@@ -48,7 +48,7 @@ const AriYuh = () => {
   const chartData = {
     labels: lyricsData.map(song => song.album),
     datasets: [{
-      label: 'Number of "Yuh"s',
+      label: 'Number of Yuhs',
       data: lyricsData.map(song => song.yuhs),
       backgroundColor: 'rgba(255, 99, 132, 0.2)',
       borderColor: 'rgba(255, 99, 132, 1)',
@@ -66,7 +66,7 @@ const AriYuh = () => {
       },
       title: {
         display: true,
-        text: 'Number of "Yuh"s by Album'
+        text: 'Number of Yuhs by Album'
       }
     },
     scales: {
@@ -96,7 +96,7 @@ const AriYuh = () => {
           </li>
         ))}
       </ul>
-      <h1>Ariana Grande's "Yuh" in Songs</h1>
+      <h1>Ariana Grande's `&ldquo;`Yuh`&ldquo;` in Songs</h1>
       <Bar data={chartData} options={chartOptions} />
     </div>
 
