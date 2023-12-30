@@ -17,7 +17,7 @@ const Hero: React.FC<HeroProps> = ({ id, showAbout }) => {
   return (
     <div id={id}> {/* Now you can use id here */}
       <div className='hero-height flex flex-col items-center justify-center transition-all'>
-        <h1 className={`h1-responsive text-center text-darkbrown transition-all duration-400 transform ${showAbout ? 'scale-50 translate-y-[-10%]' : ''}`}>
+        <h1 className={`h1-responsive text-center text-darkbrown transition-all duration-400 transform ${showAbout ? 'scale-75 translate-y-[-10%]' : ''}`}>
           Hi, I&apos;m Jocelyn.
         </h1>
         {showAbout && (
@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ id, showAbout }) => {
             <br></br>
             <p className='text-darkbrown'>My <a href="#design" className="text-graygreen font-extrabold hover:opacity-50">work</a> is driven by user-centric, visually engaging experiences. I am guided by the notion that art should make one feel something and this motivates the design choices I make. I value empathy, compassion, and enthusiasm to learn. I strive to bring these values to the forefront in design. </p>
             <br></br>
-            <p>
+            <p className='mb-16'>
               In my free time, I like to indulge in reading, watching films, or binging YouTube videos about slow fashion and sustainable living. I’m also a huge <a href="https://beliapp.co/lists/jocelynpark" className="text-graygreen font-extrabold hover:opacity-50" target="_blank" rel="noopener noreferrer">foodie</a>.</p>
           </div>
         )}
