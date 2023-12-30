@@ -84,7 +84,7 @@ const AriYuh = () => {
 
   return (
     <div>
-      <h1>Ariana Grande's "Yuh" in Songs</h1>
+      <h1>Ariana Grande's Yuh in Songs</h1>
       <ul>
         {lyricsData.map((song, index) => (
           <li key={index}>
@@ -96,7 +96,7 @@ const AriYuh = () => {
           </li>
         ))}
       </ul>
-      <h1>Ariana Grande's `&ldquo;`Yuh`&ldquo;` in Songs</h1>
+      <h1>Ariana Grande `&ldquo;`Yuh`&ldquo;` in Songs</h1>
       <Bar data={chartData} options={chartOptions} />
     </div>
 
