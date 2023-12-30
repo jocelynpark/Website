@@ -30,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = ({ onAboutClick }) => {
     },
     {
       label: "resume",
-      page: "https://drive.google.com/file/d/1UV-tiX5AJIzJE-PlHe7UBDrUfBwNYoIR/view?usp=sharing",
+      page: "https://drive.google.com/file/d/1eN57rNP1vLqPcfMq-yyLPEBxKQv2dxu8/view?usp=sharing",
       external: true,
     },
   ];

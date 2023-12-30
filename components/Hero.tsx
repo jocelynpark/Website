@@ -28,6 +28,7 @@ const Hero: React.FC<HeroProps> = ({ id, showAbout }) => {
             <br></br>
             <p>
               In my free time, I like to indulge in reading, watching films, or binging YouTube videos about slow fashion and sustainable living. I’m also a huge foodie.</p>
+            <p>My technical background and knack for making things simple.</p>
           </div>
         )}
       </div>

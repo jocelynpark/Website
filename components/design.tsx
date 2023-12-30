@@ -21,6 +21,13 @@ const projects = [
     link: "https://github.com/jocelynpark/Website",
     external: true
   },
+  // {
+  //   name: "Ari Yuh",
+  //   image: "/PreptatoCard.png",
+  //   description: "Preparing meals, for us couch potatoes.",
+  //   link: "/ari-yuh",
+  //   external: false
+  // }
 ]
 
 const Design: React.FC<DesignProps> = ({ id }) => {
