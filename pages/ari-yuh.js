@@ -84,7 +84,7 @@ const AriYuh = () => {
 
   return (
     <div>
-      <h1>Ariana Grande's Yuh in Songs</h1>
+      <h1>Ariana Grande Yuh in Songs</h1>
       <ul>
         {lyricsData.map((song, index) => (
           <li key={index}>
