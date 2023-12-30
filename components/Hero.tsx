@@ -27,8 +27,7 @@ const Hero: React.FC<HeroProps> = ({ id, showAbout }) => {
             <p className='text-darkbrown'>My <a href="#design" className="text-graygreen font-extrabold hover:opacity-50">work</a> is driven by user-centric, visually engaging experiences. I am guided by the notion that art should make one feel something and this motivates the design choices I make. I value empathy, compassion, and enthusiasm to learn. I strive to bring these values to the forefront in design. </p>
             <br></br>
             <p>
-              In my free time, I like to indulge in reading, watching films, or binging YouTube videos about slow fashion and sustainable living. I’m also a huge foodie.</p>
-            <p>My technical background and knack for making things simple.</p>
+              In my free time, I like to indulge in reading, watching films, or binging YouTube videos about slow fashion and sustainable living. I’m also a huge <a href="https://beliapp.co/lists/jocelynpark" className="text-graygreen font-extrabold hover:opacity-50" target="_blank" rel="noopener noreferrer">foodie</a>.</p>
           </div>
         )}
       </div>
