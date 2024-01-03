@@ -15,6 +15,13 @@ const projects = [
     external: false
   },
   {
+    name: "Sleeve",
+    image: "/SleeveCard4.png",
+    description: "Welcome to the era of sustainable shopping.",
+    link: "/sleeve",
+    external: false
+  },
+  {
     name: "This Website",
     image: "/WebsiteCard.png",
     description: "Built from scratch.",

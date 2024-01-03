@@ -29,7 +29,7 @@ const Smallnavbar: React.FC<NavbarProps> = ({ onAboutClick }) => {
     },
     {
       label: "resume",
-      page: "https://drive.google.com/file/d/1eN57rNP1vLqPcfMq-yyLPEBxKQv2dxu8/view?usp=sharing",
+      page: "https://drive.google.com/file/d/1RutCJYJB2Ylrq1lZQ196-4NxE6lcWXVV/view?usp=sharing",
       external: true,
     }
   ];

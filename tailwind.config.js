@@ -26,7 +26,9 @@ module.exports = {
         transparent: 'transparent',
         'darkbrown': '#2A1804',
         'cream': '#FFFDFA',
-        'graygreen': '#5D6D68'
+        'graygreen': '#5D6D68',
+        'sleevepurple': '#5B014D',
+        'sleevedarkgreen': '#132A13'
       },
     },
   },
