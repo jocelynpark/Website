@@ -43,7 +43,7 @@ const Sleeve: React.FC = () => {
           <hr></hr>
           <div className='my-8'>
             <h2 className="text-2xl font-bold mb-4 text-sleevepurple">PROBLEM</h2>
-            <p className='mb-8'>Currently, the item cards in our Shop serve as mere redirects to each brand's respective website. This setup introduces unnecessary navigational complexity and disrupts the shopping experience. Such disjointed user flow can increase customer drop-off rates and diminish the perceived convenience of our marketplace, potentially discouraging users from completing their purchases with us. </p>
+            <p className='mb-8'>Currently, the item cards in our Shop serve as mere redirects to each brand`&apos;`s respective website. This setup introduces unnecessary navigational complexity and disrupts the shopping experience. Such disjointed user flow can increase customer drop-off rates and diminish the perceived convenience of our marketplace, potentially discouraging users from completing their purchases with us. </p>
             <h2 className="text-2xl font-bold mb-4 text-sleevepurple">SOLUTION</h2>
             <p className='mb-8'>Ultimately, we want to reduce friction in the buying process for our users. So, we are in contact with a payments platform that will help us with native payments inside our marketplace itself, instead of payments on another website.</p>
             <p>Some things to consider when we are integrating a native payment option is the transfer of payment to the actual company. Another consideration is the tracking of click rates from our marketplace, which ideally will be included in reports from the payment platform we are working with.</p>
@@ -55,7 +55,7 @@ const Sleeve: React.FC = () => {
               <figcaption className='text-gray-500 mt-2'>Our item cards with no filters.</figcaption>
             </figure>
             <h2 className="text-2xl font-bold mb-4 text-sleevepurple">SOLUTION</h2>
-            <p className='mb-8'>I created a low and mid-fidelity mockup of our filter’s infrastructure and discussed it with our developers and our CEO. Although we are still in discussion about filtering properties, there have been things to consider during implementation, such as storing properties, being exhaustive with all of our products, and property naming conventions that may not match across all the companies we have on our marketplace.</p>
+            <p className='mb-8'>I created a low and mid-fidelity mockup of our filter`&apos;`s infrastructure and discussed it with our developers and our CEO. Although we are still in discussion about filtering properties, there have been things to consider during implementation, such as storing properties, being exhaustive with all of our products, and property naming conventions that may not match across all the companies we have on our marketplace.</p>
             <p>It has been fulfilling and enlightening working on a small team towards something I am passionate about (sustainable fashion). As a project manager, I am able to leverage my experiences in software and design, and have learned to see the bigger picture when working on a product. Look forward to our new features soon!</p>
           </div>
         </div>
